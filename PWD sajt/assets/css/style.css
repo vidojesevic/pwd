@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'MojFont1';
+    src: url("../css/fonts/berkshireswash-regular.ttf");
+  }
+@font-face {
+    font-family: 'MojFont2';
+    src: url("../css/fonts/Carrington.ttf");
+    font-weight: bold;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /*box-sizing: border-box;
+    scroll-behavior: smooth;*/
+}
+html {
+  scroll-behavior: smooth;
+  text-align: center;
+}
+body {
+    font-family: "MojFont1";
+    background-repeat: no-repeat;
+    background-image: url("../img/slikaaaa.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cistac {
+    clear: both;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 15px blueviolet;
+    align-items: center;
+    position: fixed;
+}
+#logo {
+    float: left;
+    width: 40%;
+}
+#logo p {
+    padding-top: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "MojFont2";
+}
+#logo p a {
+    animation: text 15s 1;
+    color: indigo;
+}
+nav {
+    float: right;
+    width: 45%;
+    font-family: "MojFont1";
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    padding: 26px;
+    display: flex;
+    float: left;
+    flex-direction: row;
+}
+li {
+    list-style: none;
+    margin-right: 26px;
+}
+li a {
+    font-size: 25px;
+}
+li a:hover {
+    color: #a8a8a9;
+}
+
+#cover {
+    width: 100%;
+    height: 620px;
+}
+.okvir {
+    width: 80%;    
+    margin: 0px auto;
+}
+@keyframes text {
+    0% {
+        color: #a8a9ad;
+    }
+    25% {
+        color: maroon;
+    }
+    50% {
+        color: indigo;
+    }
+    75% {
+        color: orangered;
+    }
+}
+h1 {
+    font-size:60px;
+    text-shadow: 4px 4px rgb(199, 134, 134);
+    color:indigo;
+    padding-top: 250px;
+    font-family: "MojFont1";
+    animation: text 15s 1;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+#cover a {
+    background-color:white;
+    opacity:0.8;
+    font-size: 18px;
+	border-radius:20px;
+	border: 2px solid #f6f6f6;
+	color:black;
+	padding: 10px 30px;
+} 
+#about {
+    padding-top: 50px;
+    background-color: white;
+    opacity: 0.9;
+    height: 600px;
+}
+#slika img {
+    border-radius: 100px;
+    height: 350px;
+}
+#bios {
+    padding-top: 40px;
+}
+h2 {
+    padding-top: 20px;
+    font-size: 35px;
+    color: black;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px orange;
+    text-align: center;
+}
+#bio p {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+#skillset {
+    width: 100%;
+    height: 600px;
+}
+#skillset h2 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.skill {
+    color: orange;
+    font-size: 200px;
+    width: 30%;
+    max-width: 100%;
+    transform: scale(1);
+}
+#skillset {
+    width: 100%;
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:space-around;
+	padding-top:50px;
+    margin-bottom:20px;
+}
+
+#footer {
+    height: 80px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+}
+#footer p {
+    color: snow;
+    font-size: 20pt;
+    text-align: center;
+}
+#fdesno {
+    float: right;
+    width: 30%;
+}
+#fdesno ul {
+    list-style-type: none;
+    float: right;
+    height: 80px;
+    display: flex;
+}
+#flevo {
+    float: left;
+    width: 30%;
+}
+#flevo ul {
+    list-style-type: none;
+    height: 80px;
+    display: flex;
+}
+.ikona { 
+    padding-right: 30px;
+    font-size:25px; 
+    color: royalblue;
+}
+#sredina {
+    display: block;
+    width: 40%;
+}
+.xml { 
+    padding-left: 30px;
+    font-size:25px; 
+    color: coral;
+}
